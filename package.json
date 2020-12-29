@@ -1,6 +1,6 @@
 {
   "name": "qqkpp",
-  "version": "5.5.5-post",
+  "version": "5.5.7-post",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
   "main": "./cjs-entry.js",
   "repository": "github:kirino17/puppeteer",
