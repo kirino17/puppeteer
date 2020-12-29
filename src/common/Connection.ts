@@ -18,7 +18,7 @@ import { debug } from './Debug.js';
 const debugProtocolSend = debug('puppeteer:protocol:SEND ►');
 const debugProtocolReceive = debug('puppeteer:protocol:RECV ◀');
 
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { ProtocolMapping } from 'devtools-protocol/types/protocol-mapping.js';
 import { ConnectionTransport } from './ConnectionTransport.js';
 import { EventEmitter } from './EventEmitter.js';

@@ -22,7 +22,7 @@ import { CDPSession } from './Connection.js';
 import { KeyInput } from './USKeyboardLayout.js';
 import { FrameManager, Frame } from './FrameManager.js';
 import { getQueryHandlerAndSelector } from './QueryHandler.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import {
   EvaluateFn,
   SerializableOrJSHandle,

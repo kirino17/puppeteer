@@ -16,7 +16,7 @@
 import { TimeoutError } from './Errors.js';
 import { debug } from './Debug.js';
 import { CDPSession } from './Connection.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { CommonEventEmitter } from './EventEmitter.js';
 import { assert } from './assert.js';
 import { isNode } from '../environment.js';

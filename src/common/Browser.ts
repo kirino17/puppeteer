@@ -19,7 +19,7 @@ import { helper } from './helper.js';
 import { Target } from './Target.js';
 import { EventEmitter } from './EventEmitter.js';
 import { Connection, ConnectionEmittedEvents } from './Connection.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { Page } from './Page.js';
 import { ChildProcess } from 'child_process';
 import { Viewport } from './PuppeteerViewport.js';

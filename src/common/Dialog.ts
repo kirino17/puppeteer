@@ -16,7 +16,7 @@
 
 import { assert } from './assert.js';
 import { CDPSession } from './Connection.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 
 /**
  * Dialog instances are dispatched by the {@link Page} via the `dialog` event.

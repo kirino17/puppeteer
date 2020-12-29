@@ -32,7 +32,7 @@ import { JSHandle, ElementHandle } from './JSHandle.js';
 import { MouseButton } from './Input.js';
 import { Page } from './Page.js';
 import { HTTPResponse } from './HTTPResponse.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import {
   SerializableOrJSHandle,
   EvaluateHandleFn,

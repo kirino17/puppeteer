@@ -16,7 +16,7 @@
 
 import { InternalQueryHandler } from './QueryHandler.js';
 import { ElementHandle, JSHandle } from './JSHandle.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { CDPSession } from './Connection.js';
 import { DOMWorld, PageBinding, WaitForSelectorOptions } from './DOMWorld.js';
 

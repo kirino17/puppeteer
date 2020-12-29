@@ -18,7 +18,7 @@ import { debugError } from './helper.js';
 import { ExecutionContext } from './ExecutionContext.js';
 import { JSHandle } from './JSHandle.js';
 import { CDPSession } from './Connection.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { EvaluateHandleFn, SerializableOrJSHandle } from './EvalTypes.js';
 
 /**

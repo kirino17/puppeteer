@@ -16,7 +16,7 @@
 import { EventEmitter } from './EventEmitter.js';
 import { assert } from './assert.js';
 import { helper, debugError } from './helper.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { CDPSession } from './Connection.js';
 import { FrameManager } from './FrameManager.js';
 import { HTTPRequest } from './HTTPRequest.js';

@@ -16,7 +16,7 @@
 
 import { CDPSession } from './Connection.js';
 import { ElementHandle } from './JSHandle.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 
 /**
  * Represents a Node and the properties of it that are relevant to Accessibility.

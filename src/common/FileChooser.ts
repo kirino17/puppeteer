@@ -15,7 +15,7 @@
  */
 
 import { ElementHandle } from './JSHandle.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import { assert } from './assert.js';
 
 /**

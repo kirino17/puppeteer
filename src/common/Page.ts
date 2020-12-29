@@ -45,7 +45,7 @@ import { TimeoutSettings } from './TimeoutSettings.js';
 import { FileChooser } from './FileChooser.js';
 import { ConsoleMessage, ConsoleMessageType } from './ConsoleMessage.js';
 import { PuppeteerLifeCycleEvent } from './LifecycleWatcher.js';
-import { Protocol } from 'devtools-protocol';
+import { Protocol } from 'qqkdpv';
 import {
   SerializableOrJSHandle,
   EvaluateHandleFn,
