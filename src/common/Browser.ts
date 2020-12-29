@@ -246,6 +246,39 @@ export class Browser extends EventEmitter {
   }
 
   /**
+  * Creates a new persist browser context. This won't share cookies/cache with other
+  * browser contexts.
+  *
+  * @example
+  * ```js
+  * (async () => {
+  *  const browser = await puppeteer.launch();
+  *   // Create a new incognito browser context.
+  *   const context = await browser.createPersistBrowserContext();
+  *   // Create a new page in a pristine context.
+  *   const page = await context.newPage();
+  *   // Do stuff
+  *   await page.goto('https://example.com');
+  * })();
+  * ```
+  */
+  async createPersistBrowserContext(persistId: number, numberOfStart: number): Promise<BrowserContext> {
+    const { browserContextId } = await this._connection.send(
+      'Target.createBrowserContext',{
+        persistId: persistId,
+        numberOfStart: numberOfStart
+      }
+    );
+    const context = new BrowserContext(
+      this._connection,
+      this,
+      browserContextId
+    );
+    this._contexts.set(browserContextId, context);
+    return context;
+  }
+
+  /**
    * Returns an array of all open browser contexts. In a newly created browser, this will
    * return a single instance of {@link BrowserContext}.
    */
