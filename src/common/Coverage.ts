@@ -16,7 +16,7 @@
 
 import { assert } from './assert.js';
 import { helper, debugError, PuppeteerEventListener } from './helper.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 import { CDPSession } from './Connection.js';
 
 import { EVALUATION_SCRIPT_URL } from './ExecutionContext.js';

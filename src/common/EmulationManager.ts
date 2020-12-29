@@ -15,7 +15,7 @@
  */
 import { CDPSession } from './Connection.js';
 import { Viewport } from './PuppeteerViewport.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 
 export class EmulationManager {
   _client: CDPSession;

@@ -18,7 +18,7 @@ import { Frame } from './FrameManager.js';
 import { HTTPResponse } from './HTTPResponse.js';
 import { assert } from './assert.js';
 import { helper, debugError } from './helper.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 
 /**
  * @public

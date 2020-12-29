@@ -36,7 +36,7 @@ import {
   UnwrapPromiseLike,
 } from './EvalTypes.js';
 import { isNode } from '../environment.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 
 // predicateQueryHandler and checkWaitForOptions are declared here so that
 // TypeScript knows about them when used in the predicate function below.

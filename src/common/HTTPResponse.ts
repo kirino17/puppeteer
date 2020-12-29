@@ -17,7 +17,7 @@ import { CDPSession } from './Connection.js';
 import { Frame } from './FrameManager.js';
 import { HTTPRequest } from './HTTPRequest.js';
 import { SecurityDetails } from './SecurityDetails.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 
 /**
  * @public

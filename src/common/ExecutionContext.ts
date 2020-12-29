@@ -20,7 +20,7 @@ import { createJSHandle, JSHandle, ElementHandle } from './JSHandle.js';
 import { CDPSession } from './Connection.js';
 import { DOMWorld } from './DOMWorld.js';
 import { Frame } from './FrameManager.js';
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 import { EvaluateHandleFn, SerializableOrJSHandle } from './EvalTypes.js';
 
 export const EVALUATION_SCRIPT_URL = '__puppeteer_evaluation_script__';

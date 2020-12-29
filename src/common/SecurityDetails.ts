@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Protocol } from 'qqkdpv';
+import { Protocol } from 'qqkcdp';
 
 /**
  * The SecurityDetails class represents the security details of a
