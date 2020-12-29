@@ -262,21 +262,21 @@ export class Browser extends EventEmitter {
   * })();
   * ```
   */
-  async createPersistBrowserContext(persistId: number, numberOfStart: number): Promise<BrowserContext> {
-    const { browserContextId } = await this._connection.send(
-      'Target.createBrowserContext',{
-        persistId: persistId,
-        numberOfStart: numberOfStart
-      }
-    );
-    const context = new BrowserContext(
-      this._connection,
-      this,
-      browserContextId
-    );
-    this._contexts.set(browserContextId, context);
-    return context;
-  }
+  // async createPersistBrowserContext(persistId: number, numberOfStart: number): Promise<BrowserContext> {
+  //   const { browserContextId } = await this._connection.send(
+  //     'Target.createBrowserContext',{
+  //       persistId: persistId,
+  //       numberOfStart: numberOfStart
+  //     }
+  //   );
+  //   const context = new BrowserContext(
+  //     this._connection,
+  //     this,
+  //     browserContextId
+  //   );
+  //   this._contexts.set(browserContextId, context);
+  //   return context;
+  // }
 
   /**
    * Returns an array of all open browser contexts. In a newly created browser, this will
