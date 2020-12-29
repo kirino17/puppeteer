@@ -16,7 +16,7 @@
 
 
 // puppeteer-core should not install anything.
-if (require('./package.json').name === 'qqkpp-core')
+if (require('./package.json').name === 'puppeteer-core')
   return;
 
 const downloadHost = process.env.PUPPETEER_DOWNLOAD_HOST || process.env.npm_config_puppeteer_download_host || process.env.npm_package_config_puppeteer_download_host;
